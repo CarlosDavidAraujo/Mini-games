@@ -352,14 +352,3 @@ void MEF() {
     cp5.getController("menu").show();
   }
 }
-}
-
-void botaoPlay() {
-  int cor = color(100, 100, 80);
-  cp5.addButton("play")
-    .setValue(128)
-    .setPosition(140, 300)
-    .setColorBackground(cor)
-    .updateSize()
-    ;
-}
